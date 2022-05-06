@@ -137,7 +137,7 @@
 			
 			var that = this;
 
-            let xlsxjs = "http://localhost/SAC/sacexcel/xlsx.js";
+            let xlsxjs = "https://raw.githubusercontent.com/MEdma1/ExcelUpload/main/xlsx.js";
             async function LoadLibs() {
                 try {
                     await loadScript(xlsxjs, _shadowRoot);
