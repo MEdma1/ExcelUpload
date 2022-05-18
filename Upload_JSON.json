@@ -1,0 +1,39 @@
+{
+  "id": "com.sac.excel",
+  "version": "1.0",
+  "name": "excel",
+  "description": "Excel",
+  "newInstancePrefix": "Excel",
+  "vendor": "MaEr",
+  "eula": "",
+  "license": "",
+  "imports": [ "input-controls" ],
+  "webcomponents": [
+    {
+      "kind": "main",
+      "tag": "com-sac-excel",
+      "url": "http://##########################",
+      "integrity": "",
+      "ignoreIntegrity": true
+    }
+  ],
+  "properties": {
+		"width": {
+			"type": "integer",
+			"default": 400
+		},
+		"height": {
+			"type": "integer",
+			"default": 150
+		}
+  },
+  
+	"methods": {
+
+	},
+	"events": {
+		
+	}
+  
+  
+}
