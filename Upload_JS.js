@@ -2,15 +2,18 @@
 	
 	
 	let template = document.createElement("template");
-	
-	
+
+
 	template.innerHTML = `
-	
-	<head> 
+
+	console.log(["Start1"])
+
+    <head> 
         <title>Title of the document</title>
         <script src="https://unpkg.com/read-excel-file@4.x/bundle/read-excel-file.min.js"></script>
     </head> 
     
+    console.log(["Start2"])
     
     <body> 
         <input type="file" id="input"> 
